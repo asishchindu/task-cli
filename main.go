@@ -1,7 +1,9 @@
 package main
 
-import "task-cli/cmd"
+import (
+	"task-cli/cmd"
+)
 
 func main() {
-    cmd.Execute()
+	cmd.Execute()
 }
